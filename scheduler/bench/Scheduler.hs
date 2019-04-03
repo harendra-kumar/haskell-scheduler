@@ -5,7 +5,7 @@ import Control.Monad (replicateM)
 import Control.Monad.Par (IVar, Par, get, newFull_, parMapM, runParIO)
 import Control.Parallel (par)
 import Control.Scheduler
-import Criterion.Main
+import Gauge.Main
 import Control.DeepSeq
 import Data.Foldable as F
 import Data.IORef
